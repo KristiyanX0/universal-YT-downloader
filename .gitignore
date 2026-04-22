@@ -1,0 +1,16 @@
+# Ignore the compiled executable and build folders
+/build/
+/dist/
+*.spec
+*.exe
+
+# Ignore downloaded videos and audio
+/Downloaded Content/
+/downloads/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore configuration files
+config.json
