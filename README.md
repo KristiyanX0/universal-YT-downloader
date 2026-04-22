@@ -1,15 +1,21 @@
 # Universal YouTube Downloader
 
-A command-line YouTube video and playlist downloader built with Python, `yt-dlp`, and `rich`. My girlfriend asked me to download a huge playlist in a specific folder for something so I just Vibe coded this in two hours.
+#### [📥 CLICK HERE TO DOWNLOAD THE .EXE](https://github.com/KristiyanX0/universal-YT-downloader/releases/latest)
 
-## Prerequisites
+_(No installation or coding required! Just download the `.exe` and run it.)_
+
+---
+
+A powerful, command-line YouTube video and playlist downloader built with Python, `yt-dlp`, and `rich`. It features a modern terminal UI, auto-generated configuration files, and seamless audio extraction.
+
+## Prerequisites (For Developers Building from Source)
 
 1. **Python 3.8+** installed on your system.
 2. **FFmpeg**: You must download the Windows build of `ffmpeg.exe` (from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/)) and place it in the root folder of this project before building.
 
 ## How to Set Up & Build
 
-I have included batch scripts to completely automate the setup and build process for Windows users.
+We have included batch scripts to completely automate the setup and build process for Windows users.
 
 ### Step 1: Install Dependencies
 
@@ -31,11 +37,11 @@ This will:
 
 ### Step 3: Clean Up (Optional)
 
-If you want to rebuild you should firstly use `clean.bat`.
+If you want to build again firstly use `clean.bat`.
 
 ## Usage
 
-Once built, you can move `universal_downloader.exe` anywhere on your computer.
+Once built or downloaded, you can move `universal_downloader.exe` anywhere on your computer.
 On its first run, it will automatically generate a `config.json` file where you can customize:
 
 - Download location
