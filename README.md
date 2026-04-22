@@ -6,7 +6,7 @@ _(No installation or coding required! Just download the `.exe` and run it.)_
 
 ---
 
-A powerful, command-line YouTube video and playlist downloader built with Python, `yt-dlp`, and `rich`. It features a modern terminal UI, auto-generated configuration files, and seamless audio extraction.
+A command-line YouTube video and playlist downloader built with Python, `yt-dlp`, and `rich`. My girldriend asked me to download some huge playlist for her so I vibe coded this script in two hours so I can use it in the future as well.
 
 ## Prerequisites (For Developers Building from Source)
 
