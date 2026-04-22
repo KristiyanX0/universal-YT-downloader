@@ -2,8 +2,12 @@
 echo Setting up environment...
 
 :: Create virtual environment
-if not exist env\ (
-    python -m venv env
+if not exist env (
+    python3 -m venv env
+    if not exist env\Scripts\activate.bat (
+        echo ERROR: Failed to create virtual environment. Make sure Python is installed correctly.
+        exit /b 1
+    )
     echo Created virtual environment: env\
 ) else (
     echo Virtual environment already exists, skipping.
